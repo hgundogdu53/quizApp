@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin:0;
+  padding: 0;
+}
+
+.main_heading, .boarder {
+	width: 98%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: .5px;
+}
+
+.main_heading {
+	height: 40px;
+	background: #939393;
+}
+
+
+.wf_box {
+	width: 70%;
+	margin-top: 0.9em;
+  padding-top: 10px;
+  padding-right: 20px;
+	margin-left: auto;
+	margin-right: auto;	
+	background: #cfcfcf;
+	height: 30em;
+	display: block;
+	
+} 
+	
+.boarder_header {
+  width: 100%;
+	background: #939393;
+	height: 3em;
+}
+
+.border_outline {
+	width: 80%;
+	height: 22em;
+	border: 1px solid black;
+	margin-top: 2em;
+  margin-right: auto;
+	margin-left:  auto;
+	margin-bottom: auto; 
+} 
+
+.answ {
+  margin-top: 5em;
+}
+
+.next_q {
+  width: 100%;
+	background: #939393;
+	height: 3em;
+}
+
+.answer {
+  height: 2em;
+  outline: 1px solid grey;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  
+}
+
+.btn_submit {
+  height: 2em;
+  outline: 1px solid grey;
+  width: 50%;
+}
+
+.q_box {
+  margin-top: 2em;
+  width: 50%;
+  height: 2em;
+  margin-left: 1em;
+  position: absolute;
+  outline: 1px solid grey;
+  
+}
+
+.result {
+  margin-top: 12em;
+  width: 50%;
+  height: 2em;
+  margin-left: 1em;
+  position: absolute;
+  outline: 1px solid grey;
+}
+
+
+.play_again {
+  margin-top: 15em;
+  width: 50%;
+  height: 2em;
+  margin-left: 1em;
+  position: absolute;
+  outline: 1px solid grey;
+}
